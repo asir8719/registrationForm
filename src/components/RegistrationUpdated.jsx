@@ -20,7 +20,7 @@ export const RegistrationUpdated = () => {
         event.preventDefault()
         console.log(user)
 
-        const response = await fetch('http://localhost:3000', {
+        const response = await fetch('https://registrationform-1-z0hm.onrender.com', {
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
