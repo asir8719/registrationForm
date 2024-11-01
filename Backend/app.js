@@ -8,7 +8,7 @@ const app = express()
 const port = process.env.PORT || 3000;
 await mongoose.connect('mongodb+srv://ashir16592:90600Asir@cluster0.1pa3y.mongodb.net/CRUD')
 
-app.use(cors({origin:'https://registration87.netlify.app'}))
+app.use(cors({origin:'https://registrationform-2-nz0t.onrender.com'}))
 
 app.use(express.json());
 
