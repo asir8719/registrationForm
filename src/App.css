@@ -1,0 +1,23 @@
+#root {
+  margin:auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.frm{
+  display: flex;
+  flex-direction: column;
+}
+
+.labl{
+  font-weight: 500;
+  font-size: large;
+  margin-top: .6rem;
+}
+
+.inpt{
+  background-color: beige;
+  padding: .5rem;
+  border-radius: .4rem;
+  color: black;
+}
