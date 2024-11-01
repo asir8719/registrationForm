@@ -20,7 +20,7 @@ export const RegistrationUpdated = () => {
         event.preventDefault()
         console.log(user)
 
-        const response = await fetch('https://registrationform-sr80.onrender.com', {
+        const response = await fetch('https://registrationform-k3kf.onrender.com', {
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
